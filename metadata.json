@@ -1,0 +1,6 @@
+{
+  "name": "Zephyr Manager 27",
+  "description": "Zephyr Manager 27: Ultimate Hardcore 3D Edition — Taktiksel derinlik, acımasız ekonomi, inatçı transfer pazarlıkları ve tam 3D stadyum maç motoruna sahip profesyonel futbol menajerlik oyunu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

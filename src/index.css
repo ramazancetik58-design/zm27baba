@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --zm-bg: #080d11;
+    --zm-panel: #111b21;
+    --zm-panel-elevated: #17242c;
+    --zm-border: rgba(255, 255, 255, 0.09);
+    --zm-accent: #b7ff4a;
+    --zm-cyan: #00e5ff;
+    --zm-navy: #0a1128;
+    --zm-gold: #f5b82e;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #080d11;
+    color: #f1f5f9;
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: "Chakra Petch", "Plus Jakarta Sans", sans-serif;
+}
+
+.font-mono-num {
+  font-family: "JetBrains Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080d11;
+}
+::-webkit-scrollbar-thumb {
+  background: #23333d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #354c5a;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
